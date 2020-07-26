@@ -10,7 +10,7 @@ const Card = ({ article }) => {
     <Link to={`/article/${article.id}`} className="uk-link-reset">
       <div className="uk-card uk-card-muted">
         <div className="uk-card-media-top">
-          <img src={imageUrl} alt={article.image.url} height="100" />
+          <img src={imageUrl} alt={imageUrl} height="100" />
         </div>
         <div className="uk-card-body">
           <p id="category" className="uk-text-uppercase">
